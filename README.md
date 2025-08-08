@@ -1,6 +1,22 @@
 # Unsupervised & Reinforcement Learning Lab
 
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19.0-orange.svg)](https://tensorflow.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Gymnasium](https://img.shields.io/badge/Gymnasium-1.0.0-green.svg)](https://gymnasium.farama.org/)
+
 A comprehensive collection of machine learning implementations focusing on unsupervised learning algorithms and reinforcement learning techniques. This repository contains hands-on Python implementations with detailed mathematical explanations and practical applications.
+
+## 📚 Table of Contents
+- [🧠 Project Overview](#-project-overview)
+- [📁 Project Structure](#-project-structure)
+- [🛠️ Technical Stack](#️-technical-stack)
+- [🚀 Getting Started](#-getting-started)
+- [🔬 Algorithm Implementations](#-algorithm-implementations)
+- [📈 Features](#-features)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🎯 Learning Objectives](#-learning-objectives)
 
 ## 🧠 Project Overview
 
@@ -44,8 +60,13 @@ This lab explores advanced machine learning techniques beyond supervised learnin
 
 ### 📊 Data & Resources
 - **`data/`** - Movie ratings datasets, user preferences, and training data
-- **`*.png`** - Generated visualizations and training progress charts
-- **`*.h5`** - Saved model weights and checkpoints
+- **Generated Outputs**:
+  - `pca_dimensionality_reduction.png` - PCA visualization results
+  - `simple_pca_example.png` - Basic PCA demonstration
+  - `training_progress_example.png` - RL training progress charts
+  - `deep_q_learning_process.png` - DQN learning process visualization
+  - `principal_component_analysis.html` - Interactive PCA dashboard
+- **`*.h5`** - Saved model weights and checkpoints (e.g., `dqn_lander_keras.h5`)
 
 ## 🛠️ Technical Stack
 
@@ -65,7 +86,7 @@ This lab explores advanced machine learning techniques beyond supervised learnin
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/yourusername/unsupervised-reinforcement-lab.git
    cd unsupervised-reinforcement-lab
    ```
 
