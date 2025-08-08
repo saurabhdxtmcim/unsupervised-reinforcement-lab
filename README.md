@@ -42,10 +42,7 @@ This lab explores advanced machine learning techniques beyond supervised learnin
 ### 🎮 Reinforcement Learning
 
 #### **Deep Q-Learning Implementations**
-- **`cartpole_deep_q_learning.py`** - Windows-friendly DQN for CartPole environment
-- **`lunar_landing_deepQ.py`** - Advanced DQN for Lunar Lander with experience replay
-- **`deep_q_learning_explained.py`** - Educational DQN implementation with detailed explanations
-- **`helpers/lunar_lander_util.py`** - Utilities for RL environment visualization and training
+- **`deep_q_learning_explained.py`** - Educational DQN implementation with detailed explanations and mathematical foundations
 
 ### 🎬 Recommender Systems
 
@@ -63,17 +60,14 @@ This lab explores advanced machine learning techniques beyond supervised learnin
 - **Generated Outputs**:
   - `pca_dimensionality_reduction.png` - PCA visualization results
   - `simple_pca_example.png` - Basic PCA demonstration
-  - `training_progress_example.png` - RL training progress charts
-  - `deep_q_learning_process.png` - DQN learning process visualization
   - `principal_component_analysis.html` - Interactive PCA dashboard
-- **`*.h5`** - Saved model weights and checkpoints (e.g., `dqn_lander_keras.h5`)
 
 ## 🛠️ Technical Stack
 
 - **Core ML**: TensorFlow 2.19, Keras, Scikit-learn
 - **Data Processing**: NumPy, Pandas
 - **Visualization**: Matplotlib, Bokeh, Plotly
-- **RL Environments**: Gymnasium with Box2D physics
+- **Future RL Extensions**: Prepared for Gymnasium environments
 - **Development**: Python 3.11+, Jupyter-compatible
 
 ## 🚀 Getting Started
@@ -108,9 +102,9 @@ This lab explores advanced machine learning techniques beyond supervised learnin
 python k_means_clustering.py
 ```
 
-#### **Train CartPole Agent**
+#### **Explore Deep Q-Learning Concepts**
 ```bash
-python cartpole_deep_q_learning.py
+python deep_q_learning_explained.py
 ```
 
 #### **Explore PCA Visualization**
@@ -131,9 +125,7 @@ python collaborative_recommender.py
 - **Anomaly Detection**: Gaussian distribution modeling for outlier detection
 
 ### Reinforcement Learning
-- **Deep Q-Networks (DQN)**: Neural network-based Q-learning with experience replay
-- **Environment Integration**: OpenAI Gymnasium compatibility
-- **Policy Optimization**: Epsilon-greedy exploration strategies
+- **Deep Q-Networks (DQN)**: Educational implementation with mathematical foundations and algorithmic explanations
 
 ### Recommender Systems
 - **Collaborative Filtering**: Matrix factorization with user-item interactions
